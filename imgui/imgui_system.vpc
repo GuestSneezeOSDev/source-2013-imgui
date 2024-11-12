@@ -1,5 +1,4 @@
-
-$Macro IMGUI_DIR "$SRCDIR\imgui"
+$Macro IMGUI_DIR "$SRCDIR"
 
 $Configuration
 {
