@@ -23,6 +23,10 @@
 *********************************************************************************/
 #pragma once
 
+// Combine Sandbox Addition
+#include "cbase.h"
+//=========================
+
 #include "imgui/imgui.h"
 
 struct ImDrawData;

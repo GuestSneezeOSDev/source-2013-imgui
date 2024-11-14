@@ -23,6 +23,9 @@
 *********************************************************************************/
 #pragma once
 
+// Combine Sandbox Addition
+#include "cbase.h"
+//=========================
 #include "imgui/imgui.h"
 
 #include "imgui_system.h"

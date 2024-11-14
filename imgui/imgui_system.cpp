@@ -23,6 +23,9 @@
 *********************************************************************************/
 #include "imgui_system.h"
 #include "imgui_window.h"
+// Combine Sandbox Addition
+#include "cbase.h"
+//=========================
 
 #include "filesystem.h"
 #include "fmtstr.h"

@@ -21,6 +21,9 @@
 *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 *  SOFTWARE.
 *********************************************************************************/
+// Combine Sandbox Addition
+#include "cbase.h"
+//=========================
 #pragma once
 
 #include "appframework/IAppSystem.h"
