@@ -6,7 +6,13 @@ This repo contains an imgui implementation for Source 2013 based on the one we d
 
 1. Add this repo as a submodule to your Source mod
 2. Include the VPC file in your client\_base.vpc
-3. Add the following code to cdll\_client\_int.cpp
+3. Download [`imgui.lib`](https://github.com/Liberty-Interactive/Void-Modding-Tool/blob/main/lib/imgui.lib) and move it to `src/lib/public`
+4. open `source_dll_win32_base.vpc` and add
+```cpp
+$Implib "$LIBPUBLIC\imgui"
+```
+right after `$Implib "$LIBPUBLIC\vstdlib"`
+5. Add the following code to cdll\_client\_int.cpp
 
 At the top of the file:
 ```cpp
